@@ -68,4 +68,40 @@ Integração com Salesforce e MTRIX
 - Mapeamento dos Sistemas para entender quais dados precisam ser trocados 
 - Treinamento da Equipe para aprende as APIs do Salesforce e do MTRIX
 
+<h3> 6. Plano para reduzir riscos: </h3>
+
+- Fase piloto com feedback contínuo. 
+- Automação gradual (começar com MVP simples). 
+- Monitoramento em tempo real e rollback para regras antigas. 
+- Compliance jurídico envolvido desde o início. 
+- Treinamento e engajamento dos consultores comerciais. 
+
+<h3> 7. Quem são as partes interessadas? </h3>
+
+- Diretoria comercial e marketing 
+- Consultores de vendas 
+- Equipe de TI / Produto 
+- Clientes finais (bares, distribuidores) 
+- Equipe jurídica e compliance
+
+<h3> 8. O que eles esperam ganhar? </h3>
+
+- Diretoria: aumento de vendas e ROI do programa. 
+- Consultores: ferramenta fácil de usar e que incentive os clientes. 
+- Clientes: benefícios tangíveis, informações claras e facilidade. 
+- TI/Produto: arquitetura sustentável e escalável. 
+- Equipe jurídica e compliance: padronização dos contratos e segurança
+
+<h3> 9. Quem são os usuários? </h3>
+
+- Clientes (bares, distribuidores) 
+- Consultores comerciais e executivos de venda 
+- Gestores da empresa
+
+<h3> 10. O que eles estão tentando realizar? </h3>
+
+- Acompanhar performance e ganhos em tempo real. 
+- Ser recompensados pelo volume de compras. 
+- Planejar campanhas de forma mais estratégica. 
+- Gerenciamento eficiente dos contratos
 
