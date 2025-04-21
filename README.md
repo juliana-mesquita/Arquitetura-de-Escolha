@@ -49,4 +49,23 @@ Durante a pandemia, a empresa de bebidas premium sofreu queda nas vendas. Para r
 
 Segmentação dos clientes 
 - Análise dos dados históricos para identificar padrões e perfis de clientes  
-- Realização de entrevistas estruturadas com metodologia Focus group  
+- Realização de entrevistas estruturadas com metodologia Focus group
+
+Segmentação dos contratos 
+- Mineração de dados dos contratos atuais para identificar pontos em comum e outliers 
+- Benchmarking com programas semelhantes 
+  
+Definição dos benefícios, incentivos e promoções 
+- Co-criação com clientes e validação com áreas de marketing e jurídico 
+- Monitoramento dos KPIs das campanhas  
+- Análise de comportamento histórico de compra
+
+Informações que os clientes querem ver	 no Portal 
+- Design Thinking e entrevistas com clientes  
+- Benchmarking com programas semelhantes
+
+Integração com Salesforce e MTRIX 
+- Mapeamento dos Sistemas para entender quais dados precisam ser trocados 
+- Treinamento da Equipe para aprende as APIs do Salesforce e do MTRIX
+
+
