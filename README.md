@@ -10,7 +10,7 @@ RM353741 - Juliana Mesquita
 
 Durante a pandemia, a empresa de bebidas premium sofreu queda nas vendas. Para reverter o cenário, criou um programa de cashback para incentivar o aumento de vendas. Contudo, o programa apresentou baixa rentabilidade, falta de engajamento dos clientes premium e reclamações dos participantes que achavam as regras do programa confusas. A empresa busca agora transformar essa dor em uma solução digital mais moderna de fidelidade baseada em performance, inteligência de dados e automação dos processos manuais. 
 
-
+![](https://github.com/juliana-mesquita/Arquitetura-de-Escolha/blob/05d0f9b873ea0e90f4828378dfb5306ae0f52053/storytelling.png)
 
 <h3> 2. O que esperamos aprender com esse projeto? </h3>
 
@@ -19,7 +19,7 @@ Durante a pandemia, a empresa de bebidas premium sofreu queda nas vendas. Para r
 - Quais informações os clientes gostariam de ver no Portal 
 - Como fazer uma integração com o Salesforce e MTRIX. Funcionamento das suas APIs 
 
-<h3>Que perguntas precisamos que sejam respondidas?</h3>
+<h3> 3. Que perguntas precisamos que sejam respondidas?</h3>
 
 - Foi realizada alguma pesquisa de mercado para saber a aderência do programa? Se sim, que tipo(s) de pesquisa(s) 
 - Qual a taxa estimada de adesão? 
@@ -43,5 +43,15 @@ Durante a pandemia, a empresa de bebidas premium sofreu queda nas vendas. Para r
 - Quais métricas o cliente deseja acompanhar? 
 - Será possível realizar a integração com serviços de contratos e notas fiscais?
 
-<h3>4. Quais são os nossos principais riscos? </h3>
+<h3> 4. Quais são os nossos principais riscos? </h3>
 
+- Baixa adesão dos clientes à nova plataforma 
+- Dificuldade na integração com o Sales force e MTRIX 
+- Falhas no cálculo automatizado do cashback 
+- Dificuldade no enquadramento de clientes aos modelos de fidelização
+
+<h3> 5. Plano para aprender o que precisamos (learning plan): </h3>
+
+Segmentação dos clientes 
+- Análise dos dados históricos para identificar padrões e perfis de clientes  
+- Realização de entrevistas estruturadas com metodologia Focus group  
