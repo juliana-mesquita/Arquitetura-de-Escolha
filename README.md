@@ -1,10 +1,5 @@
 # Arquitetura-de-Escolha
-<h1> Trabalho da Disciplina de Arquitetura de Escolha - 63ASO </h1>  
-
-Integrantes:  
-RM356615 - Jordano Fried  
-RM353198 - Sabrina Sales  
-RM353741 - Juliana Mesquita  
+<h1> Trabalho da Disciplina de Arquitetura de Escolha - 63ASO </h1>   
 
 <h3> 1. Storytelling sobre o problema </h3>
 
