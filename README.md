@@ -131,3 +131,54 @@ Integração com Salesforce e MTRIX
 - Seção de ajuda com FAQ, tutoriais e chat de suporte 
 - Área de feedback do cliente para melhoria contínua 
 - Analytics de comportamento do usuário integrado 
+
+<h4> 13.2 Motor de Regras </h4>
+
+- Sistema parametrizável baseado em políticas de negócio 
+- Algoritmos para cálculo dinâmico de cashback considerando: 
+  - Perfil do cliente (segmento, histórico) 
+  - Volume e recorrência de compras 
+  - Sazonalidade e campanhas promocionais 
+  - Categorias de produtos/serviços 
+  - Fidelidade (tempo de relacionamento) 
+- Versionamento de regras com histórico de mudanças 
+- Capacidade de simulação para testar impacto de novas regras 
+- API documentada para integração com outros sistemas 
+- Logs detalhados para auditoria e rastreabilidade 
+- Processamento em tempo real e batch para diferentes cenários 
+- Interface administrativa para configuração de regras sem necessidade de código
+
+<h4>13.3 ETL/Stream (Integração) </h4>
+
+- Arquitetura de mensageria baseada em Apache Kafka 
+- Conectores específicos para Sales force e MTRIX com transformação de dados em tempo real 
+- Camadas de integração: 
+  - Captura de dados (CDC) do banco operacional 
+  - Transformação e enriquecimento 
+  - Carregamento em sistemas-alvo 
+- Processamento de eventos complexos (CEP) para detecção de padrões 
+- Mecanismos de retry e dead-letter queue para tratamento de falhas 
+- Monitoramento de latência e throughput 
+- Governança de dados com validação e qualidadeSincronização bidirecional entre sistemas 
+- Rastreabilidade completa do fluxo de dados 
+- Módulo de reconciliação para garantir consistência
+
+<h4> 13.4 Dashboard BI </h4>
+
+- Plataforma de Business Intelligence com diferentes visões: 
+  - Visão executiva (KPIs principais, tendências) 
+  - Visão operacional (indicadores diários, alertas) 
+  - Visão analítica (análises ad-hoc, drill-down)
+- Métricas principais: 
+  - Análise de adesão ao programa de cashback 
+  - Taxa de utilização do cashback disponível 
+  - Impacto nas vendas e retenção 
+  - Segmentação de clientes por comportamento 
+  - ROI das campanhas de cashback
+- Recursos avançados: 
+  - Análise preditiva de comportamento futuro 
+  - Alertas automáticos para desvios significativos 
+  - Exportação programada de relatórios 
+  - Dashboards personalizáveis por perfil de usuário 
+  - Integração com ferramentas de BI externas (Power BI, Tableau, etc.)
+- Histórico comparativo e análise de tendências 
