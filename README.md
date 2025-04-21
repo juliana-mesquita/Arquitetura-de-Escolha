@@ -105,3 +105,11 @@ Integração com Salesforce e MTRIX
 - Planejar campanhas de forma mais estratégica. 
 - Gerenciamento eficiente dos contratos
 
+<h3> 11. Qual o pior que pode acontecer? </h3>
+
+- Descontinuidade do programa por baixa adoção ou alto custo. 
+- Erros em cashback levando à perda de confiança. 
+- Problemas legais e comerciais por contratos mal estruturados.
+
+<h3> 12. Desenho da Arquitetura (Freeform - versão inicial): </h3>
+
