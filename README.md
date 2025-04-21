@@ -113,3 +113,21 @@ Integração com Salesforce e MTRIX
 
 <h3> 12. Desenho da Arquitetura (Freeform - versão inicial): </h3>
 
+![!](https://github.com/juliana-mesquita/Arquitetura-de-Escolha/blob/a505aa974b656a3638a8c02320e65d4f8c5b6ecd/Arquitetura%20free-form.jpeg)
+
+<h3> 13. Descrição dos componentes: </h3>
+
+<h4> 13.1 Portal do Cliente </h4>
+
+- Interface web responsiva e aplicativo móvel para acesso omnichannel 
+- Autenticação multi-fator com níveis de acesso (visualização, administrador, etc.) 
+- Funcionalidades principais: 
+  - Visualização detalhada de contratos ativos/inativos 
+  - Histórico de consumo com filtros e exportação de dados 
+  - Extrato de cashback (disponível, utilizado, a receber) 
+  - Área de resgate/utilização do cashback 
+  - Notificações personalizáveis (email, SMS, push) 
+  - Documentação fiscal (notas fiscais, recibos) 
+- Seção de ajuda com FAQ, tutoriais e chat de suporte 
+- Área de feedback do cliente para melhoria contínua 
+- Analytics de comportamento do usuário integrado 
