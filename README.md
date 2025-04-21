@@ -10,6 +10,8 @@ RM353741 - Juliana Mesquita
 
 Durante a pandemia, a empresa de bebidas premium sofreu queda nas vendas. Para reverter o cenário, criou um programa de cashback para incentivar o aumento de vendas. Contudo, o programa apresentou baixa rentabilidade, falta de engajamento dos clientes premium e reclamações dos participantes que achavam as regras do programa confusas. A empresa busca agora transformar essa dor em uma solução digital mais moderna de fidelidade baseada em performance, inteligência de dados e automação dos processos manuais. 
 
+storytelling.png
+
 <h3> 2. O que esperamos aprender com esse projeto? </h3>
 
 Qual a melhor forma de segmentar clientes e contratos 
