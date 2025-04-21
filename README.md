@@ -182,3 +182,63 @@ Integração com Salesforce e MTRIX
   - Dashboards personalizáveis por perfil de usuário 
   - Integração com ferramentas de BI externas (Power BI, Tableau, etc.)
 - Histórico comparativo e análise de tendências 
+
+<h4> 13.5 Simulador de Cashback </h4>
+
+- Ferramenta interativa com duas interfaces: 
+  - Versão para consultores (mais detalhada, com acesso a cenários complexos) 
+  - Versão para clientes (simplificada, intuitiva) 
+- Funcionalidades: 
+  - Simulação baseada em produtos/serviços específicos 
+  - Comparação lado a lado de diferentes cenários 
+  - Projeção de economias ao longo do tempo 
+  - Recomendação de mix ideal de produtos/serviços 
+  - Geração de propostas/cotações baseadas na simulação 
+- Integração com o CRM para registro de oportunidades 
+- Incorporação de histórico do cliente para simulações personalizadas 
+- Exportação do resultado em PDF/Excel para apresentações 
+- Versionamento das simulações para acompanhamento 
+- API para integração com outros canais de vendas 
+- Feedback em tempo real das regras aplicadas na simulação
+
+<h4> 13.6 Banco de Dados e Armazenamento (Componente adicional) </h4>
+
+- Arquitetura híbrida: 
+  - Banco relacional para transações (PostgreSQL/Oracle) 
+  - Banco NoSQL para análises e dados não estruturados (MongoDB/Cassandra)
+- Data Lake em três camadas (bronze, silver, gold)Modelos de dados: 
+  - Contratos (termos, condições, histórico de alterações) 
+  - Transações (compras, resgates, estornos) 
+  - Cashback (acumulado, disponível, expirado) 
+  - Perfil e comportamento do cliente 
+- Políticas de retenção e arquivamento 
+- Esquema de particionamento para performance 
+- Redundância geográfica para alta disponibilidade 
+- Criptografia de dados sensíveis 
+- Mecanismos de backup e recovery
+
+<h4> 13.7 Serviço de Notificações (Componente adicional) </h4>
+
+- Sistema centralizado de comunicação multicanal: 
+  - Email (templates personalizáveis) 
+  - SMS (mensagens compactas) 
+  - WhatsApp (mensagens ricas, interativas) 
+  - Push notifications (app móvel) 
+- Tipos de notificações: 
+  - Transacionais (confirmações, alertas) 
+  - Informativas (novos benefícios, atualizações) 
+  - Marketing (ofertas personalizadas baseadas em perfil) 
+  - Operacionais (manutenção, alterações de regras) 
+- Motor de personalização baseado em preferências do usuário 
+- Agendamento e priorização de mensagens 
+- Analytics de taxas de abertura e engajamento 
+- Sistema de opt-in/opt-out conforme regulamentações 
+- Testes A/B para otimização de mensagens
+
+<h4> 14. Requisitos importantes: </h4>
+
+- Integração automática com Salesforce e MTRIX. 
+- Cálculo em tempo real do cashback. 
+- Portal com visibilidade clara para o cliente. 
+- Flexibilidade para criar promoções sazonais. 
+- Alta disponibilidade e segurança de dados. 
