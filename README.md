@@ -235,10 +235,143 @@ Integração com Salesforce e MTRIX
 - Sistema de opt-in/opt-out conforme regulamentações 
 - Testes A/B para otimização de mensagens
 
-<h4> 14. Requisitos importantes: </h4>
+<h3> 14. Requisitos importantes: </h3>
 
 - Integração automática com Salesforce e MTRIX. 
 - Cálculo em tempo real do cashback. 
 - Portal com visibilidade clara para o cliente. 
 - Flexibilidade para criar promoções sazonais. 
 - Alta disponibilidade e segurança de dados. 
+
+<h3> 15. Sobre o que o diagrama ajuda a pensar? </h3>
+
+<h4> 15.1 Visão Sistêmica e Estratégica </h4>
+
+- Alinhamento com Objetivos de Negócio: Clarifica como a arquitetura técnica suporta a estratégia de fidelização e recompensa dos clientes 
+- Identificação de Capacidades-Chave: Destaca os componentes essenciais para operacionalizar o programa de cashback 
+- Priorização de Investimentos: Ajuda a identificar quais componentes são críticos para o MVP (Produto Mínimo Viável) versus expansões futuras 
+ 
+<h4> 15.2 Aspectos Técnicos e Integração </h4>
+
+- Pontos de Integração: Identifica claramente as interfaces entre sistemas internos e externos (Salesforce, MTRIX) 
+- Fluxos de Dados: Mapeia como as informações transitam entre componentes, destacando dependências críticas 
+- Escalabilidade: Permite analisar quais componentes precisarão escalar com o crescimento do programa 
+- Desacoplamento: Evidência onde adotar arquiteturas mais desacopladas para permitir evolução independente 
+ 
+<h4> 15.3 Experiência do Usuário e Jornada do Cliente </h4>
+
+- Pontos de Contato: Identifica todas as interfaces com o cliente final e consultores 
+- Ciclo de Vida do Cashback: Visualiza o fluxo completo desde a geração até o resgate do benefício 
+- Notificações e Comunicação: Clarifica os múltiplos canais de comunicação com o cliente 
+ 
+<h4> 15.4 Governança e Operação </h4>
+
+- Pontos de Monitoramento: Identifica onde implementar métricas e alertas 
+- Integridade de Dados: Destaca onde garantir consistência nas transações de cashback 
+- Auditoria: Mapeia pontos onde o logging é crucial para rastreabilidade 
+- Segurança: Identifica áreas sensíveis que requerem proteções adicionais (dados financeiros) 
+ 
+<h4> 15.5 Evolução e Manutenção </h4>
+
+- Possibilidades de Expansão: Facilita a identificação de áreas para crescimento futuro 
+- Gestão de Mudanças: Ajuda a avaliar o impacto de alterações em componentes específicos 
+- Documentação Viva: Serve como referência central para entendimento do sistema por toda a equipe
+
+<h4> 15.6 Tomada de Decisão Arquitetural </h4>
+
+- Trade-offs Tecnológicos: Guia decisões sobre tecnologias a adotar (por exemplo, Kafka vs. RabbitMQ) 
+- Modelos de Implantação: Ajuda a decidir entre abordagens on-premise, cloud ou híbridas 
+- Estratégia de Banco de Dados: Orienta escolhas entre soluções SQL, NoSQL, ou híbridas 
+ 
+<h4> 15.7 Comunicação e Alinhamento </h4>
+
+- Linguagem Comum: Estabelece terminologia e entendimento compartilhado entre diferentes stakeholders 
+- Onboarding: Facilita a integração de novos membros da equipe ao projeto 
+- Alinhamento Interdepartamental: Ajuda áreas técnicas e de negócio a visualizarem suas responsabilidades 
+ 
+<h4> 15.8 Antecipação de Desafios </h4>
+
+- Gargalos Potenciais: Identifica pontos onde pode haver sobrecarga (ex: cálculo de cashback em tempo real) 
+- Riscos Técnicos: Evidencia dependências críticas e pontos únicos de falha 
+- Complexidades de Implementação: Destaca áreas que podem requerer mais recursos ou expertise 
+ 
+<h4> 15.9 Análise de Impacto Regulatório </h4>
+
+- Conformidade: Ajuda a identificar pontos relevantes para LGPD e outras regulamentações 
+- Armazenamento de Dados Financeiros: Orienta decisões sobre retenção e segurança de informações sensíveis 
+- Auditabilidade: Garante que o sistema possa ser auditado para fins regulatórios 
+ 
+<h3> 16. Padrões essenciais no diagrama: </h3>
+
+- Separação de responsabilidades (front, back, dados) 
+- Event-driven para comunicação assíncrona 
+- Containers permitindo modularidade e facilidade para escalar 
+- CORS (Cross-Origin Resource Sharing) 
+- CQRS (Command Query Responsibility Segregation) 
+
+<h3> 17. Existem padrões ocultos? </h3>
+
+Sim, CQRS, containers e CORS. 
+ 
+<h3> 18. Qual é o Metamodelo? </h3>
+
+
+
+19. Pode ser discernido no diagrama único? 
+Sim, pois a arquitetura tem um número gerenciável de componentes e a visão única ajuda o público-alvo a entender melhoras as relações sistêmicas da solução. 
+ 
+20. O diagrama está completo? 
+O diagrama cobre os elementos essenciais para o MVP. No entanto, ainda podem ser incluídos aspectos como: 
+Segurança/autenticação 
+Monitoramento e logging 
+Interface administrativa para o time interno 
+ 
+21. Poderia ser simplificado e ainda assim ser eficaz? 
+Sim, removendo a camada de analytics para o MVP. 
+ 
+22. Discussões importantes na equipe: 
+Definir regras de cashback de acordo com o nível de fidelidade e volume de compra do cliente 
+Como dar visibilidade sem trazer complexidade técnica e operacional 
+Como capacitar os consultores de vendas para utilizar o novo programa de cash-back como estratégia de engajamento com os clientes 
+ 
+23. Decisões difíceis: 
+Manter ou não parte do processo manual no MVP 
+Escolha da tecnologia de mensageria para integração 
+Rollout gradual ou big bang (amostra de clientes ou todos) 
+ 
+24. Decisões sob incerteza: 
+Adoção da plataforma pelos clientes. 
+Benefícios que realmente aumentam o consumo 
+Legislação de outros países 
+ 
+25. Ponto de decisão sem retorno: 
+Implementação do novo modelo do programa de fidelidade, alterando os contratos e cálculos de benefícios, podem ter resultado contrário ao esperado. Trazer mais descrédito ao invés de reverter a percepção atual.  
+ 
+26. Nível Contexto 
+Picture 948116779, Picture 
+
+ 
+
+27. Nível Container 
+Paragraph locked by Jordano Moreira Fried
+Picture 1695941388, Picture 
+
+28. Nível Componente 
+
+ 
+Paragraph locked by Jordano Moreira Fried
+Diagrama
+
+O conteúdo gerado por IA pode estar incorreto., Picture 
+
+29. Link Vídeo de Apresentação 
+
+https://fiapcom-my.sharepoint.com/:v:/g/personal/rm356615_fiap_com_br/Ebfzc_e-QWpJgpCNHMzSzqsBG8GLNF_cKjWKYFoMnvmc6A?e=CPoTe1 
+
+ 
+
+30. Link Github 
+
+https://github.com/juliana-mesquita/Arquitetura-de-Escolha/blob/main/README.md 
+
+ 
