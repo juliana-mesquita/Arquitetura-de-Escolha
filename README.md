@@ -365,15 +365,4 @@ Implementação do novo modelo do programa de fidelidade, alterando os contratos
 
 <h3> 28. Nível Componente </h3>
 
-
-29. Link Vídeo de Apresentação 
-
-https://fiapcom-my.sharepoint.com/:v:/g/personal/rm356615_fiap_com_br/Ebfzc_e-QWpJgpCNHMzSzqsBG8GLNF_cKjWKYFoMnvmc6A?e=CPoTe1 
-
- 
-
-30. Link Github 
-
-https://github.com/juliana-mesquita/Arquitetura-de-Escolha/blob/main/README.md 
-
- 
+![!](https://github.com/juliana-mesquita/Arquitetura-de-Escolha/blob/2482f8174aade0031a7bb9ef18f648aeb1014f29/Ni%CC%81vel%20Componente.jpeg)
