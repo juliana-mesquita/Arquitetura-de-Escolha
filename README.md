@@ -357,10 +357,10 @@ Implementação do novo modelo do programa de fidelidade, alterando os contratos
  
 <h3> 26. Nível Contexto </h3>
 
+![!](https://github.com/juliana-mesquita/Arquitetura-de-Escolha/blob/edc26e6b07baa873f0673102b8f9ba97ed7cdd85/Nivel%20Contexto.jpeg)
 
-27. Nível Container 
-Paragraph locked by Jordano Moreira Fried
-Picture 1695941388, Picture 
+<h3> 27. Nível Container </h3>
+
 
 28. Nível Componente 
 
