@@ -315,42 +315,48 @@ Sim, CQRS, containers e CORS.
  
 <h3> 18. Qual é o Metamodelo? </h3>
 
+![!](https://github.com/juliana-mesquita/Arquitetura-de-Escolha/blob/a75fe3773ff2e02b4f5f7e232b49637b6dbb6ee7/Metamodelo.jpeg)
 
 
-19. Pode ser discernido no diagrama único? 
+<h3> 19. Pode ser discernido no diagrama único? </h3>
+
 Sim, pois a arquitetura tem um número gerenciável de componentes e a visão única ajuda o público-alvo a entender melhoras as relações sistêmicas da solução. 
- 
-20. O diagrama está completo? 
+
+<h3> 20. O diagrama está completo? </h3>
+
 O diagrama cobre os elementos essenciais para o MVP. No entanto, ainda podem ser incluídos aspectos como: 
-Segurança/autenticação 
-Monitoramento e logging 
-Interface administrativa para o time interno 
+- Segurança/autenticação 
+- Monitoramento e logging 
+- Interface administrativa para o time interno 
  
-21. Poderia ser simplificado e ainda assim ser eficaz? 
+<h3> 21. Poderia ser simplificado e ainda assim ser eficaz? </h3>
+
 Sim, removendo a camada de analytics para o MVP. 
  
-22. Discussões importantes na equipe: 
-Definir regras de cashback de acordo com o nível de fidelidade e volume de compra do cliente 
-Como dar visibilidade sem trazer complexidade técnica e operacional 
-Como capacitar os consultores de vendas para utilizar o novo programa de cash-back como estratégia de engajamento com os clientes 
+<h3> 22. Discussões importantes na equipe: </h3>
+
+- Definir regras de cashback de acordo com o nível de fidelidade e volume de compra do cliente 
+- Como dar visibilidade sem trazer complexidade técnica e operacional 
+- Como capacitar os consultores de vendas para utilizar o novo programa de cash-back como estratégia de engajamento com os clientes 
  
-23. Decisões difíceis: 
-Manter ou não parte do processo manual no MVP 
-Escolha da tecnologia de mensageria para integração 
-Rollout gradual ou big bang (amostra de clientes ou todos) 
+<h3> 23. Decisões difíceis: </h3>
+
+- Manter ou não parte do processo manual no MVP 
+- Escolha da tecnologia de mensageria para integração 
+- Rollout gradual ou big bang (amostra de clientes ou todos) 
  
-24. Decisões sob incerteza: 
-Adoção da plataforma pelos clientes. 
-Benefícios que realmente aumentam o consumo 
-Legislação de outros países 
+<h3> 24. Decisões sob incerteza: </h3>
+
+- Adoção da plataforma pelos clientes. 
+- Benefícios que realmente aumentam o consumo 
+- Legislação de outros países 
  
-25. Ponto de decisão sem retorno: 
+<h3> 25. Ponto de decisão sem retorno: </h3>
+
 Implementação do novo modelo do programa de fidelidade, alterando os contratos e cálculos de benefícios, podem ter resultado contrário ao esperado. Trazer mais descrédito ao invés de reverter a percepção atual.  
  
-26. Nível Contexto 
-Picture 948116779, Picture 
+<h3> 26. Nível Contexto </h3>
 
- 
 
 27. Nível Container 
 Paragraph locked by Jordano Moreira Fried
